@@ -18,5 +18,14 @@ const doubled = people.map((key) => {
     people.key*= 2;
 });
 
+let car = "variable"
 
-
+var object = {
+     a: 1,
+     b: 'strings', 
+     c: car
+    };
+    
+for (const prop in object) {
+  console.log(`obj.${prop} = ${object[prop]}`);
+}
