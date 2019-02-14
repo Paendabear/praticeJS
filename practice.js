@@ -6,7 +6,10 @@ for (let i=0; i<numArr.length; i++){
     total += numArr[i];
 
     return (total/(numArr.length));
-})
+}
+});
+
+
 
 numArr.reduce( (total, num) => {
     return total + num
